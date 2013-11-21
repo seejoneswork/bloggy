@@ -1,0 +1,90 @@
+	/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+	font-family: verdana;
+}
+
+h1 {
+	font-family: verdana;
+}
+
+h2 {
+	font-family: georgia;
+}
+
+h3 {
+	font-family: georgia;
+	color:purple;
+}
+
+
+.header a{
+	color:yellow;
+	position: relative;
+	right:20px;
+	top:40px;
+	z-index: auto;
+	margin-right: 20px;
+	float:right;
+	text-decoration: none;
+}
+
+.header {
+	margin: 0px;
+	margin-right: 10px;
+	height: 92px;
+	padding:0px;
+	border-bottom:0px solid black;
+	background-image:url("header.gif");
+}
+
+.footer {
+		padding:50px;
+		background-color: gray;
+		color:white;
+		text-align:center;
+		box-shadow: -10px 5px 10px 15px; 
+}
+
+#footer {
+	clear: both;
+}
+
+.content {
+	margin: 0px;
+	margin-right: 10px;
+	font-size: 9pt;
+
+}
+
+.categories {
+	float:center;
+	margin-right:10px;
+	font-size: 9pt;
+
+}
+
+.bio {
+	float:right;
+	margin-right:80px;
+	font-size: 9pt;
+	padding-right: 11px;
+}
+
+.photo {
+	float:left;
+	margin-right:30px;
+	margin-bottom: 80px;
+}

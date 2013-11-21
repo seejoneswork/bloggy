@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bloggy</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="header"><font color="white">
+	<%= link_to "Contact", main_faq_path %>
+	<%= link_to "Portfolio", main_tos_path %>
+	<%= link_to "Bio", privacy_path %> </font color>
+	<%= link_to "Blog", blogs_path %>
+	<%= link_to "About", main_about_us_path %>
+</div>
+
+
+<div class="content">
+<%= yield %>
+
+<div class="footer">
+
+©2013 SeeJones Creative, LLC. All Rights Reserved.
+
+
+</body>
+</html>
