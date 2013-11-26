@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+	/title>Home | My Bio Page | Web Development and Design
+		<meta name="description" content="Bio page for Christopher
+		 Jones" />
+		<meta name="author" content="Chris Jones" >
+		<link href="style.css" type-"text/css" rel="stylesheet" 
+		/>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<nav>
+				<a href="index.html">
+				<div id="logo">
+				<h1>Christopher Jones</h1>
+				</div><!--LOGO-->
+			</a>
+			<ul>
+				<li><a href="index.html"></a></li>
+				<li><a href="contact.html"></a></li>
+			</ul>
+			</nav>
+		</div> <!-- WRAPPER -->
+		<hr />
+
+		<div id="banner">
+
+		</div> <!--BANNER-->
+
+	</body>

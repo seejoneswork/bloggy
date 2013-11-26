@@ -1,6 +1,22 @@
 <h1>Edit blog</h1>
 
+<div style="float:left">
 <%= render 'form' %>
+</div>
+<div style="float:right">
+	<h3>Add Tag</h3>
+	<%= render 'tags/form' %>
+
+	<hr/>
+	<h4>Associated Tags <%= @blog.tags.count %>
+	</h4>
+	<% @blog.tags.each do |tag| %>
+		<span style="background-color:gray;padding:4px;margin-right:4px;color:white">
+		<%= tag.name %>
+	<% end %>
+
+</div>
+<div style="clear:both"></div>
 
 <%= link_to 'Show', @blog %> |
 <%= link_to 'Back', blogs_path %>
